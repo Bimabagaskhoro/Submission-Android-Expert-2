@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sub2expert</string>
+
+    <string name="film">FILM</string>
+    <string name="tv_movie">TV MOVIE</string>
+
+    <string name="suka">Like</string>
+    <string name="suka1">Like : </string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan1">Share : </string>
+    <string name="ganti_bahasa">Change Language</string>
+    <string name="sutradara">Director</string>
+    <string name="tahun_produksi">Production Year</string>
+    <string name="deskripsi">Description</string>
+</resources>

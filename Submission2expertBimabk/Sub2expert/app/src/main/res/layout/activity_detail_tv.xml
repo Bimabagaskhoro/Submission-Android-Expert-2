@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfake.detail.DetailTv">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardgmbr"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:cardBackgroundColor="@color/colorBg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001">
+
+            <ImageView
+                android:id="@+id/image_desc_tv"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="80dp"
+                android:src="@color/colorPrimary"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/title_desc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|normal"
+                tools:text="TV MOVIE" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/txSud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sutradara"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|normal"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@id/cardgmbr"
+            app:layout_constraintStart_toStartOf="@id/cardgmbr"
+            app:layout_constraintTop_toBottomOf="@id/cardgmbr"/>
+
+        <TextView
+            android:id="@+id/sutradara_desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorBgtxt"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/txSud"
+            app:layout_constraintStart_toStartOf="@+id/txSud"
+            app:layout_constraintTop_toBottomOf="@+id/txSud"
+            tools:text="sutradara" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txthn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tahun_produksi"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold|normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="@id/sutradara_desc_tv"
+            app:layout_constraintStart_toStartOf="@id/sutradara_desc_tv"
+            app:layout_constraintTop_toBottomOf="@id/sutradara_desc_tv" />
+
+        <TextView
+            android:id="@+id/tahun_desc_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:background="@color/colorBgtxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="@id/txthn"
+            app:layout_constraintStart_toStartOf="@id/txthn"
+            app:layout_constraintTop_toBottomOf="@id/txthn"
+            tools:text="tahun produksi" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txdsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold|normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="@id/tahun_desc_tv"
+            app:layout_constraintStart_toStartOf="@id/tahun_desc_tv"
+            app:layout_constraintTop_toBottomOf="@id/tahun_desc_tv" />
+        <TextView
+            android:id="@+id/desc_det_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBgtxt"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="20"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="@id/txdsc"
+            app:layout_constraintStart_toStartOf="@id/txdsc"
+            app:layout_constraintTop_toBottomOf="@id/txdsc"
+            tools:text="Deskripsi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

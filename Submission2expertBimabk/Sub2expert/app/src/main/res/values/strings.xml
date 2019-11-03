@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sub2expert</string>
+
+    <string name="film">FILM</string>
+    <string name="tv_movie">TV MOVIE</string>
+
+    <string name="suka">Suka</string>
+    <string name="suka1">Suka : </string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan1">Bagikan : </string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+    <string name="sutradara">Sutradara</string>
+    <string name="tahun_produksi">Tahun Produksi</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>
